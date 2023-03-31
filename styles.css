@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* selector1, selector2 {
+  common stuff; it is called multiple selectors
+} 
+selector1 (from parent) selector2 (from child) {
+common stuff; it is called hierarchical selectors
+}
+selector1.selector2 {
+common stuff; it is called combined selectors
+}
+read from right to left*/
+
+body{
+  font-family: "Montserrat";
+  text 
+}
+
+#title {
+background-color: #ff4c68;
+color: #fff;
+}
+
+#main {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#testimonials-comment{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials-comment-2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5; 
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 14% 7% !important;
+}
+
+#section-heading{
+  font-size: 2.4rem;
+  line-height: 2rem;
+  padding-bottom: 2%;
+}
+
+/* Naigation bar */
+.navbar {
+  background-color:  #ff4c68;
+ padding: 0 0 2.4rem;
+}
+
+.navbar-nav .nav-link:hover{  
+  color: rgb(35, 20, 232);
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin: 6px;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: "Ubuntu";
+  font-size: 1.8rem !important;
+  font-weight: bold;
+}
+
+/* -- */
+
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0% ;
+}
+.download-button:hover{
+  color: #afaeae;
+}
+
+/* -- */
+
+/* title image */
+
+.title-image{
+  width: 60% ;
+  transform: rotate(24deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* -- */
+
+
+/* features section */
+
+#features {
+  padding: 8% 14%; 
+  /* 7% top and bottom 15% right and left */
+  background-color: #fff;
+  position: relative;
+  /* we didn't use absolute because it would hamper the natural flow of the page */
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  
+  /* padding: 0%; */
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* -- */
+
+/* testimonal section  */
+
+#testimonials{
+  padding: 8% 14%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 14%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* -- */
+
+/* press section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 14%;
+  margin: 20px 20px 50px;
+}
+
+/* -- */
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* .card-header{
+  font-weight: bold;
+} */
+
+/* -- */
+
+/* CTA section */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 8% 14%;
+  text-align: center;
+}
+
+#cta-heading{
+  font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+/* -- */
+
+/* footer section */
+
+#footer{
+ padding: 6% 14%;
+ text-align: center;
+ }
+
+ .social-icon{
+  margin: 20px 10px;
+ }
+
+/* -- */
+
+
+/* media query */
+
+@media (max-width: 1028px) {
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* -- */
